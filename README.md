@@ -1,5 +1,5 @@
-# 官网首页
-这是官网首页，请按照以下的说明搭建并安装环境。
+# 基于webpack的脚手架
+这个代码主要是一个合适的webpack配置，可以基于此来开发单页应用，添加了支持各种格式的loader和web服务器配置，可放心使用。
 
 ##开发环境搭建
 
@@ -7,13 +7,15 @@
 本项目使用git进行版本管理，代码托管到github。请访问[git官网](https://git-scm.com/downloads)下载对应操作系统的git客户端。此外，还需要访问[github首页](https://github.com)来注册github账户，以进行代码提交。
 
 ###下载代码
-本项目github地址是[https://github.com/fatzhou/main-page](https://github.com/fatzhou/main-page),github项目首页是[https://fatzhou.github.io/main-page/index.html](https://fatzhou.github.io/main-page/index.html).
+本项目github地址是[https://github.com/fatzhou/webpack-scaffold](https://github.com/fatzhou/webpack-scaffold),github项目首页是[https://fatzhou.github.io/webpack-scaffold/index.html](https://fatzhou.github.io/webpack-scaffold/index.html).
 
 在git客户端中运行以下命令来下载代码：
 
-	git clone git@github.com:fatzhou/main-page.git
+	git clone git@github.com:fatzhou/webpack-scaffold.git official-website
 	
-git会在当前目录下创建main-page文件夹，并下载代码到本地。
+最后的official-website为本地目录名字，可以改成实际项目名称。
+
+git会在当前目录下创建webpack-scaffold文件夹，并下载代码到本地。
 
 ###<a name="commit"></a>如何提交
 当准备提交之前，先更新其他人的更改：
