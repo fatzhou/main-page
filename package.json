@@ -9,7 +9,7 @@
   },
   "reposistory": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:fatzhou/webpack-scaffold.git"
   },
   "keywords": [],
   "author": "",
