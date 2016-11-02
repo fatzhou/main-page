@@ -45,7 +45,7 @@ git会在当前目录下创建webpack-scaffold文件夹，并下载代码到本�
 如果要发布到项目主页，我们需要执行以下命令：
 
 	npm run build
-	git push subtree --prefix dist origin gh-pages
+	git subtree push --prefix dist origin gh-pages
 	
 这里先通过webpack命令打包文件到dist目录，然后推送到gh-pages分支（默认分支是master分支）。然后可以访问项目主页看到改动效果了。
 
